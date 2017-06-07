@@ -1,0 +1,26 @@
+{
+  "name": "pollski",
+  "version": "1.0.0",
+  "description": "mastodon pollster bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "thedod",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "express": "^4.15.3",
+    "node-persist": "^2.0.11",
+    "mastodon": "^1.2.0",
+    "sanitize-html": "^1.14.1",
+    "blake2s": "^1.1.0",
+    "nedb": "^1.8.0"
+  },
+  "engines": {
+    "node": "6.9.x"
+  },
+  "repository": {
+    "type": "glitch",
+    "url": "https://glitch.com/edit/#!/pollski"
+  }
+}
