@@ -1,4 +1,4 @@
-## Polski, the Mastodon pollster bot
+## Pollski: a Mastodon pollster bot
 
 ![logo](https://cdn.glitch.com/f0a98492-b168-4c48-9546-fc6646c830fb%2Fpollski.png?1496420994865)
 
