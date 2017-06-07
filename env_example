@@ -1,0 +1,19 @@
+# Set this to use an API endpoint other than https://mastodon.social/api/v1/
+# Make sure your url includes `/api/v1/` at the end of it!
+MASTODON_API='https://botsin.space/api/v1/'
+
+# On botsin.space, you can define your app and get a token at "your applications" in the settings.
+# If your server doesn't have that (and yet — allows bots), check out
+# https://tinysubversions.com/notes/mastodon-bot/index.html to see how to obtain an access token 
+MASTODON_ACCESS_TOKEN=
+
+# Tip: go to https://api.wordpress.org/secret-key/1.1/salt and pick one of the random strings you get there
+HASH_SALT=
+
+# Tick path (e.g. '/mysecret') is the URL you should curl from a cron job to invoke a tick();
+TICK_PATH=
+
+# The bot's username [e.g. "pollski"] without the "@server" suffix
+BOT_USERNAME=
+# mastodon accouts who can destroy/untoot polls/recommendations by others ['someone@someserver', ...]
+ADMINS=[]
